@@ -1,0 +1,124 @@
+# 1 "board/myzr/myimx6/myimx6a7-6y-ddr3.cfg"
+# 1 "<built-in>"
+# 1 "<命令行>"
+# 1 "././include/linux/kconfig.h" 1
+
+
+
+# 1 "include/generated/autoconf.h" 1
+# 5 "././include/linux/kconfig.h" 2
+# 1 "<命令行>" 2
+# 1 "board/myzr/myimx6/myimx6a7-6y-ddr3.cfg"
+# 12 "board/myzr/myimx6/myimx6a7-6y-ddr3.cfg"
+# 1 "include/config.h" 1
+
+
+
+
+
+
+# 1 "include/config_defaults.h" 1
+# 8 "include/config.h" 2
+# 1 "include/config_uncmd_spl.h" 1
+# 9 "include/config.h" 2
+# 1 "include/configs/myimx6a7.h" 1
+
+
+
+
+# 1 "include/configs/mx6_common.h" 1
+# 47 "include/configs/mx6_common.h"
+# 1 "include/linux/sizes.h" 1
+# 48 "include/configs/mx6_common.h" 2
+# 1 "./arch/arm/include/asm/arch/imx-regs.h" 1
+# 417 "./arch/arm/include/asm/arch/imx-regs.h"
+# 1 "./arch/arm/include/asm/imx-common/regs-lcdif.h" 1
+# 418 "./arch/arm/include/asm/arch/imx-regs.h" 2
+# 49 "include/configs/mx6_common.h" 2
+# 1 "./arch/arm/include/asm/imx-common/gpio.h" 1
+# 50 "include/configs/mx6_common.h" 2
+# 6 "include/configs/myimx6a7.h" 2
+# 10 "include/config.h" 2
+# 1 "./arch/arm/include/asm/config.h" 1
+# 11 "include/config.h" 2
+# 1 "include/config_fallbacks.h" 1
+# 11 "include/config.h" 2
+# 13 "board/myzr/myimx6/myimx6a7-6y-ddr3.cfg" 2
+# 1 "board/myzr/myimx6/myimx6a7-ddr3-ctrl.h" 1
+# 14 "board/myzr/myimx6/myimx6a7-6y-ddr3.cfg" 2
+# 1 "board/myzr/myimx6/myimx6cb140-ddr-cali.h" 1
+# 15 "board/myzr/myimx6/myimx6a7-6y-ddr3.cfg" 2
+
+
+
+IMAGE_VERSION 2
+
+
+
+BOOT_FROM sd
+
+
+
+
+
+DATA 4 0x020c4068 0xffffffff
+DATA 4 0x020c406c 0xffffffff
+DATA 4 0x020c4070 0xffffffff
+DATA 4 0x020c4074 0xffffffff
+DATA 4 0x020c4078 0xffffffff
+DATA 4 0x020c407c 0xffffffff
+DATA 4 0x020c4080 0xffffffff
+
+DATA 4 0x020e04b4 0x000C0000
+DATA 4 0x020e04ac 0x00000000
+DATA 4 0x020e027c 0x00000028
+DATA 4 0x020e0250 0x00000028
+DATA 4 0x020e024c 0x00000028
+DATA 4 0x020e0490 0x00000028
+DATA 4 0x020e0288 0x000C0028
+DATA 4 0x020e0270 0x00000000
+DATA 4 0x020e0260 0x00000028
+DATA 4 0x020e0264 0x00000028
+DATA 4 0x020e04a0 0x00000028
+DATA 4 0x020e0494 0x00020000
+DATA 4 0x020e0280 0x00000028
+DATA 4 0x020e0284 0x00000028
+DATA 4 0x020e04b0 0x00020000
+DATA 4 0x020e0498 0x00000028
+DATA 4 0x020e04a4 0x00000028
+DATA 4 0x020e0244 0x00000028
+DATA 4 0x020e0248 0x00000028
+DATA 4 0x021b001c 0x00008000
+DATA 4 0x021b0800 0xA1390003
+DATA 4 0x021b080c 0x00000004
+DATA 4 0x021b083c 0x40400140
+DATA 4 0x021b0848 0x40404040
+DATA 4 0x021b0850 0x40404040
+DATA 4 0x021b081c 0x33333333
+DATA 4 0x021b0820 0x33333333
+DATA 4 0x021b082c 0xF3333333
+DATA 4 0x021b0830 0xF3333333
+DATA 4 0x021b08c0 0x00944009
+DATA 4 0x021b08b8 0x00000800
+DATA 4 0x021b0004 0x0002002D
+DATA 4 0x021b0008 0x1B333030
+DATA 4 0x021b000c 0x3F4352F3
+DATA 4 0x021b0010 0xB66D0B63
+DATA 4 0x021b0014 0x01FF00DB
+DATA 4 0x021b0018 0x00211740
+DATA 4 0x021b001c 0x00008000
+DATA 4 0x021b002c 0x000026D2
+DATA 4 0x021b0030 0x00431023
+DATA 4 0x021b0040 0x00000047
+DATA 4 0x021b0000 0x83180000
+DATA 4 0x021b0890 0x00400000
+DATA 4 0x021b001c 0x02008032
+DATA 4 0x021b001c 0x00008033
+DATA 4 0x021b001c 0x00048031
+DATA 4 0x021b001c 0x15208030
+DATA 4 0x021b001c 0x04008040
+DATA 4 0x021b0020 0x00007800
+DATA 4 0x021b0818 0x00000227
+DATA 4 0x021b0004 0x0002552D
+DATA 4 0x021b0404 0x00011006
+DATA 4 0x021b001c 0x00000000

@@ -139,7 +139,8 @@ static iomux_v3_cfg_t const usdhc2_pads[] = {
 };
 
 static struct fsl_esdhc_cfg usdhc_cfg[1] = {
-	{USDHC2_BASE_ADDR, 0, 4},
+    {USDHC1_BASE_ADDR, 0, 4},
+    {USDHC2_BASE_ADDR, 0, 8},
 };
 
 int board_mmc_getcd(struct mmc *mmc)
